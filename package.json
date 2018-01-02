@@ -1,0 +1,7 @@
+{
+  "name": "urlify",
+  "scripts": {},
+  "dependencies": {
+    "aws-sdk": "^2.176.0"
+  }
+}
