@@ -1,6 +1,8 @@
 {
   "name": "urlify",
-  "scripts": {},
+  "scripts": {
+    "deploy": "aws s3 sync static s3://urlify"
+  },
   "dependencies": {
     "aws-sdk": "^2.176.0"
   }
