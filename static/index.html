@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name=viewport content="width=device=width,initial-scale=1">
   <title>URLiFY</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href="https://unpkg.com/papercss@1.3.1/dist/paper.min.css" rel="stylesheet">
 </head>
 <style>
@@ -25,13 +26,16 @@
           <label for="url">Enter URL to shorten</label>
           <input
             class="input-block"
+            value="https://"
             name="url"
             type="url"
             id="url"
             autocomplete="off"
             required>
         </div>
-        <div id="message" class="alert alert-primary"></div>
+        <div class="copyonclickdiv">
+          <div id="message" class="alert alert-primary copyonclicktext"></div>
+        </div>
         <input
             class="paper-btn"
             type="submit"

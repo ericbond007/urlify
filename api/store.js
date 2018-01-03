@@ -38,7 +38,7 @@ function validate (longUrl) {
     })
   }
 
-  let parsedUrl = url.parse(longUrl)
+    let parsedUrl = url.parse(longUrl)
   if (parsedUrl.protocol === null || parsedUrl.host === null) {
     return Promise.reject({
       statusCode: 400,
